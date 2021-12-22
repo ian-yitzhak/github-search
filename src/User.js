@@ -15,7 +15,7 @@ const onclickHandler =async (e)=>{
   e.preventDefault()
   const profile = await fetch(`https://api.github.com/users/${username}`)
   const profileJson = await profile.json()
-  // console.log(profileJson)
+  console.log(profileJson)
 
 
 
@@ -50,7 +50,7 @@ const onclickHandler =async (e)=>{
     <h6 className="card-text"><i className="fas fa-users">FOLLOWERS:</i> {data.followers}</h6>
     <h6 className="card-text"> <i className="fas fa-user-friends">FOLLOWING:</i> {data.following}</h6>
 </div>
-    <a href="{data.blog}" className="btn btn-primary">Blog</a>
+    <a href={data.blog} className="btn btn-primary">Blog</a>
   
 </div> 
 <div className="p-3 mb-2 bg-warning text-dark">made by <a href="https://iano.herokuapp.com" className="btn btn-success">IAN</a> Incase of any modification do contact me</div>   
