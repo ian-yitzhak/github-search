@@ -1,0 +1,49 @@
+.form-control{
+	width: 500px;
+}
+.container{
+	box-shadow: -4px 1px 0px 8px rgba(9,4,39,0.75) inset;
+-webkit-box-shadow: -4px 1px 0px 8px rgba(9,4,39,0.75) inset;
+-moz-box-shadow: -4px 1px 0px 8px rgba(9,4,39,0.75) inset;
+}
+.form__holder{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: rgb(233,10,10);
+	color: white;
+background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(233,7,53,1) 100%);
+}
+.btn-primary{
+	margin-left: 10px;
+}
+.rounded-circle{
+	width: 200px;
+	height: 200px;
+	text-align: center;
+}
+.card{
+	padding: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-shadow: -2px 1px 0px 9px rgba(238,230,230,0.75);
+-webkit-box-shadow: -2px 1px 0px 9px rgba(238,230,230,0.75);
+-moz-box-shadow: -2px 1px 0px 9px rgba(238,230,230,0.75);
+
+}
+.card i{
+color: #183153;
+font-weight: 600;
+/*font-family: fantasy;*/
+}
+.follo .card-text{
+	margin: 20px;
+}
+.follo{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
